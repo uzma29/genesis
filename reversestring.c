@@ -17,7 +17,7 @@ int main()
 
    end = count - 1;
 
-   for (begin = 0; begin < count; begin++) {
+   for (begin = 0; begin > count; begin++) {
       r[begin] = s[end];
       end--;
    }
